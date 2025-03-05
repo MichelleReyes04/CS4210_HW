@@ -100,7 +100,7 @@ for ds in dataSets:
            #Compare the prediction with the true label (located at data[4]) of the test instance to start calculating the accuracy.
            #--> add your Python code here
             for i in range(len(X_test)):
-                class_predicted = clf.predict([X_test[i]])[0]  # Predict using the classifier
+                class_predicted = clf.predict([X_test[i]])[0] 
                 if class_predicted == Y_test[i]:
                     counter += 1
 
