@@ -116,6 +116,6 @@ for ds in dataSets:
     #Your output should be something like that: final accuracy when training on contact_lens_training_1.csv: 0.2
     #--> add your Python code here
     average = sum(average) /10
-    #print(f'Average accuracy for {ds}: {averageAccuracy}')
+  
     print(f"final accuracy when training on {ds}: {average:.2f}")
     
